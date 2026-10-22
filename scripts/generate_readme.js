@@ -41,7 +41,7 @@ const CATEGORY_META = {
 //     surveys (LLM-as-Recommender / Semantic ID & Generative Retrieval /
 //     Generative Sequence Modeling)
 const SUBTOPIC_ORDER = {
-    generative: ['LLM-as-Recommender', 'Semantic ID & Generative Retrieval', 'Generative Sequence Modeling', 'General'],
+    generative: ['Semantic ID & Generative Retrieval', 'LLM-as-Recommender', 'Generative Sequence Modeling', 'General'],
     agentic: ['Recommender-oriented', 'Interaction-oriented', 'Simulation-oriented', 'General'],
     other: ['General']
 };
@@ -169,8 +169,12 @@ async function main() {
             if (published.length === 0 && recentPreprints.length === 0) continue;
 
             categoryHasContent = true;
-            const subTopicHeading = subTopic === 'General' ? '' : `### ${subTopic}\n\n`;
-            categoryMd += subTopicHeading;
+            // Every sub-topic gets its own heading — including "General" (papers
+            // that don't clearly match one of the more specific sub-topics).
+            // Rendering "General" with no heading made it visually blend into
+            // whichever sub-topic happened to render right before it, which
+            // looked like duplicate/broken sections.
+            categoryMd += `### ${subTopic}\n\n`;
 
             if (recentPreprints.length > 0) {
                 categoryMd += `<details open><summary><strong>🆕 Recent Preprints (last ${Math.round(PREPRINT_WINDOW_DAYS / 365 * 12)} months) — ${recentPreprints.length}</strong></summary>\n\n`;
