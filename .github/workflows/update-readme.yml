@@ -1,0 +1,38 @@
+name: Update README
+
+on:
+  schedule:
+    # 01:30 UTC = 09:30 Beijing time, ~1.5h after the live site's own daily
+    # refresh window (08:05 Beijing), so the venue/citation data is fresh.
+    - cron: '30 1 * * *'
+  workflow_dispatch: {} # allow manual "Run workflow" trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Regenerate README.md from the live data feed
+        run: node scripts/generate_readme.js
+
+      - name: Commit and push if README changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --staged --quiet; then
+            echo "No changes to README.md — skipping commit."
+          else
+            git commit -m "Auto-update README ($(date -u +'%Y-%m-%d'))"
+            git push
+          fi

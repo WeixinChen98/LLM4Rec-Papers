@@ -1,0 +1,12 @@
+{
+  "name": "llm4rec-papers",
+  "private": true,
+  "type": "module",
+  "description": "Auto-generated paper list on LLM-powered Recommendation (Generative + Agentic), mirroring https://weixinchen.com/llm4rec_papers",
+  "scripts": {
+    "generate": "node scripts/generate_readme.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
