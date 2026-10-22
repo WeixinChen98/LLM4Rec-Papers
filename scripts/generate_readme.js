@@ -7,15 +7,17 @@
  *   - Grouped by Topic (Generative Recommendation / Agentic Recommendation /
  *     Other LLM4Rec), then by Sub-topic within each Topic (same taxonomy as
  *     the live site, grounded in published surveys — see classifySubTopic()).
- *   - Within each (Topic, Sub-topic), split into:
- *       - "Published (Peer-reviewed)" — accepted somewhere (any venue),
- *         sorted by citation count (desc), then recency.
- *       - "Recent Preprints" — not yet accepted anywhere, AND published
- *         within PREPRINT_WINDOW_DAYS (default 365 days / ~1 year, matching
- *         the "Within a year" option already offered on the live site).
- *         Sorted by recency (desc). Older, still-unaccepted preprints are
- *         dropped from the list entirely to keep it from growing forever —
- *         they remain visible on the live site regardless.
+ *   - Within each (Topic, Sub-topic), split into (Preprints shown first —
+ *     they're the most up-to-date and the main thing this list tracks day
+ *     to day; Publications is the stable, long-lived record):
+ *       - "Recent Preprints" — not yet matched to a published venue, within
+ *         PREPRINT_WINDOW_DAYS (default 365 days / ~1 year, matching the
+ *         "Within a year" option already offered on the live site). Sorted
+ *         by recency (desc). Older preprints are dropped from this list
+ *         entirely to keep it from growing forever — they remain visible on
+ *         the live site regardless.
+ *       - "Publications" — matched to a published venue, sorted by citation
+ *         count (desc), then recency.
  *
  * Usage: node scripts/generate_readme.js
  * (no deps beyond Node's built-in fetch, available in Node 18+)
@@ -170,18 +172,18 @@ async function main() {
             const subTopicHeading = subTopic === 'General' ? '' : `### ${subTopic}\n\n`;
             categoryMd += subTopicHeading;
 
-            if (published.length > 0) {
-                categoryMd += `<details open><summary><strong>📗 Published (Peer-reviewed) — ${published.length}</strong></summary>\n\n`;
-                categoryMd += published.map(renderEntry).join('\n') + '\n\n';
-                categoryMd += `</details>\n\n`;
-                totalPublished += published.length;
-            }
-
             if (recentPreprints.length > 0) {
-                categoryMd += `<details><summary><strong>🆕 Recent Preprints (last ${Math.round(PREPRINT_WINDOW_DAYS / 365 * 12)} months) — ${recentPreprints.length}</strong></summary>\n\n`;
+                categoryMd += `<details open><summary><strong>🆕 Recent Preprints (last ${Math.round(PREPRINT_WINDOW_DAYS / 365 * 12)} months) — ${recentPreprints.length}</strong></summary>\n\n`;
                 categoryMd += recentPreprints.map(renderEntry).join('\n') + '\n\n';
                 categoryMd += `</details>\n\n`;
                 totalRecentPreprints += recentPreprints.length;
+            }
+
+            if (published.length > 0) {
+                categoryMd += `<details open><summary><strong>📗 Publications — ${published.length}</strong></summary>\n\n`;
+                categoryMd += published.map(renderEntry).join('\n') + '\n\n';
+                categoryMd += `</details>\n\n`;
+                totalPublished += published.length;
             }
         }
 
@@ -198,10 +200,12 @@ async function main() {
 
 This repo mirrors that feed and regenerates itself daily via GitHub Actions. It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM / WSDM / TORS / TKDE / ACL / EMNLP (via Semantic Scholar), de-duplicated against arXiv preprints.
 
-- **Published (Peer-reviewed)**: sorted by citation count, kept indefinitely.
-- **Recent Preprints**: not yet accepted anywhere, limited to the last ${Math.round(PREPRINT_WINDOW_DAYS / 365 * 12)} months to keep the list from growing without bound. Older unaccepted preprints remain visible on the live site.
+- **Recent Preprints**: limited to the last ${Math.round(PREPRINT_WINDOW_DAYS / 365 * 12)} months to keep the list from growing without bound. Older preprints remain visible on the live site.
+- **Publications**: sorted by citation count, kept indefinitely.
 
-**Last updated:** ${lastUpdated} · **Published papers:** ${totalPublished} · **Recent preprints:** ${totalRecentPreprints}
+> Citation counts are from the Semantic Scholar API (same source as the live site) and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
+
+**Last updated:** ${lastUpdated} · **Recent preprints:** ${totalRecentPreprints} · **Publications:** ${totalPublished}
 
 ---
 
@@ -218,7 +222,7 @@ This repo mirrors that feed and regenerates itself daily via GitHub Actions. It 
 
     const fs = await import('node:fs');
     fs.writeFileSync(new URL('../README.md', import.meta.url), markdown);
-    console.log(`README.md written: ${totalPublished} published + ${totalRecentPreprints} recent preprints.`);
+    console.log(`README.md written: ${totalRecentPreprints} recent preprints + ${totalPublished} publications.`);
 }
 
 main().catch(err => {
