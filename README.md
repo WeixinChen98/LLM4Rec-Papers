@@ -11,7 +11,7 @@ This repo mirrors that feed and regenerates itself daily via GitHub Actions. It 
 
 > Citation counts are from the Semantic Scholar API (same source as the live site) and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
 
-**Last updated:** 2026-10-22 06:25:12 UTC · **Recent preprints:** 545 · **Publications:** 627
+**Last updated:** 2026-10-22 14:30:11 Beijing Time · **Recent preprints:** 545 · **Publications:** 627
 
 ---
 

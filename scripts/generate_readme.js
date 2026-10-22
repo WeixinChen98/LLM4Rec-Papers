@@ -190,7 +190,15 @@ async function main() {
         if (categoryHasContent) sections.push(categoryMd);
     }
 
-    const lastUpdated = new Date().toISOString().replace('T', ' ').slice(0, 19) + ' UTC';
+    // Display in Beijing time (Asia/Shanghai, UTC+8) for consistency with
+    // the rest of the project (the live site's schedules, the GitHub Actions
+    // cron comment, etc. are all reasoned about in Beijing time).
+    const lastUpdated = new Intl.DateTimeFormat('sv-SE', {
+        timeZone: 'Asia/Shanghai',
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', second: '2-digit',
+        hour12: false
+    }).format(new Date()).replace(' ', ' ') + ' Beijing Time';
 
     const header = `# LLM4Rec Papers
 
