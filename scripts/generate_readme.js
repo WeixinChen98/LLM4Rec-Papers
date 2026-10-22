@@ -151,7 +151,7 @@ async function main() {
         const categoryPapers = papers.filter(p => (p.category || 'other') === categoryKey);
         if (categoryPapers.length === 0) continue;
 
-        let categoryMd = `## ${emoji} ${label}\n\n`;
+        let categoryMd = `<a id="${categoryKey}"></a>\n\n## ${emoji} ${label}\n\n`;
         let categoryHasContent = false;
 
         for (const subTopic of SUBTOPIC_ORDER[categoryKey]) {
@@ -200,18 +200,26 @@ async function main() {
         hour12: false
     }).format(new Date()).replace(' ', ' ') + ' Beijing Time';
 
+    // shields.io badge URLs (static labels, dynamic counts via params)
+    const badgeLiveSite  = `[![Live Site](https://img.shields.io/badge/Live%20Site-weixinchen.com-blue?style=flat-square&logo=google-chrome&logoColor=white)](${LIVE_SITE_URL})`;
+    const badgePublished = `[![Publications](https://img.shields.io/badge/Publications-${totalPublished}-brightgreen?style=flat-square)](${LIVE_SITE_URL})`;
+    const badgePreprints = `[![Recent Preprints](https://img.shields.io/badge/Recent%20Preprints-${totalRecentPreprints}-orange?style=flat-square)](${LIVE_SITE_URL})`;
+    const badgeUpdated   = `[![Auto-updated](https://img.shields.io/badge/Auto--updated-daily-lightgrey?style=flat-square&logo=github-actions&logoColor=white)](../../actions)`;
+
     const header = `# LLM4Rec Papers
+
+${badgeLiveSite} ${badgePublished} ${badgePreprints} ${badgeUpdated}
 
 **A continuously auto-updated paper list on LLM-powered Recommendation — covering Generative Recommendation and Agentic Recommendation.**
 
-📡 Live, interactive version (with filters, search, citation counts, weekly email digest): **[weixinchen.com/llm4rec_papers](${LIVE_SITE_URL})**
+Live, interactive version with filters, search, citation counts, and weekly email digest: **[weixinchen.com/llm4rec_papers](${LIVE_SITE_URL})**
 
 This repo mirrors that feed and regenerates itself daily via GitHub Actions. It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM / WSDM / TORS / TKDE / ACL / EMNLP (via Semantic Scholar), de-duplicated against arXiv preprints.
 
 - **Recent Preprints**: limited to the last ${Math.round(PREPRINT_WINDOW_DAYS / 365 * 12)} months to keep the list from growing without bound. Older preprints remain visible on the live site.
 - **Publications**: sorted by citation count, kept indefinitely.
 
-> Citation counts are from the Semantic Scholar API (same source as the live site) and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
+> Citation counts are from the Semantic Scholar API and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
 
 **Last updated:** ${lastUpdated} · **Recent preprints:** ${totalRecentPreprints} · **Publications:** ${totalPublished}
 
@@ -221,7 +229,7 @@ This repo mirrors that feed and regenerates itself daily via GitHub Actions. It 
 
     const toc = '## Contents\n\n' + Object.keys(CATEGORY_META)
         .filter(key => papers.some(p => (p.category || 'other') === key))
-        .map(key => `- [${CATEGORY_META[key].emoji} ${CATEGORY_META[key].label}](#${CATEGORY_META[key].label.toLowerCase().replace(/[^a-z0-9]+/g, '-')})`)
+        .map(key => `- [${CATEGORY_META[key].emoji} ${CATEGORY_META[key].label}](#${key})`)
         .join('\n') + '\n\n---\n\n';
 
     const footer = `\n---\n\n*Auto-generated. Do not edit README.md directly — update [scripts/generate_readme.js](scripts/generate_readme.js) instead, or the live site's classification logic.*\n`;
