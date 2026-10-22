@@ -40,10 +40,13 @@ const CATEGORY_META = {
 //   - Generative: common methodology split used across generative-rec
 //     surveys (LLM-as-Recommender / Semantic ID & Generative Retrieval /
 //     Generative Sequence Modeling)
+//   - Other LLM4Rec: not backed by a single survey (unlike the two above) —
+//     a loose, purely descriptive grouping just to make a 500+ paper bucket
+//     easier to scan, not a methodology taxonomy.
 const SUBTOPIC_ORDER = {
     generative: ['Semantic ID & Generative Retrieval', 'LLM-as-Recommender', 'Generative Sequence Modeling', 'General'],
     agentic: ['Recommender-oriented', 'Interaction-oriented', 'Simulation-oriented', 'General'],
-    other: ['General']
+    other: ['Explainability & Reasoning', 'Evaluation, Trust & Safety', 'User Profiling & Personalization', 'Domain-specific Applications', 'General']
 };
 
 const KNOWN_VENUE_SHORT_LABELS = {
@@ -77,6 +80,24 @@ function classifySubTopic(category, title, abstract) {
         }
         if (text.includes('agent') || text.includes('tool') || text.includes('plan') || text.includes('memory') || text.includes('reasoning')) {
             return 'Recommender-oriented';
+        }
+        return 'General';
+    }
+
+    if (category === 'other') {
+        if (text.includes('explain') || text.includes('rationale') || text.includes('interpret') || text.includes('judge') || text.includes('reasoning')) {
+            return 'Explainability & Reasoning';
+        }
+        if (text.includes('benchmark') || text.includes('evaluat') || text.includes('audit') || text.includes('fairness') || text.includes(' bias') ||
+            text.includes('hallucinat') || text.includes('calibrat') || text.includes('trust') || text.includes('safe') || text.includes('robust')) {
+            return 'Evaluation, Trust & Safety';
+        }
+        if (text.includes('profil') || text.includes('personaliz') || text.includes('user model') || text.includes('user behavior')) {
+            return 'User Profiling & Personalization';
+        }
+        if (text.includes('medic') || text.includes('clinical') || text.includes('health') || text.includes('music') || text.includes('news') ||
+            text.includes(' poi ') || text.includes('point-of-interest') || text.includes('finance') || text.includes('e-commerce') || text.includes('video')) {
+            return 'Domain-specific Applications';
         }
         return 'General';
     }
