@@ -1,7 +1,5 @@
 # LLM4Rec Papers
 
-[![Live Site](https://img.shields.io/badge/Live_Site-weixinchen.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://weixinchen.com/llm4rec_papers) [![Publications](https://img.shields.io/badge/Publications-627-2EA043?style=for-the-badge)](https://weixinchen.com/llm4rec_papers) [![Recent Preprints](https://img.shields.io/badge/Recent_Preprints-545-FB8500?style=for-the-badge)](https://weixinchen.com/llm4rec_papers) [![Auto-updated](https://img.shields.io/badge/Auto--updated-Daily-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](../../actions)
-
 **A continuously auto-updated paper list on LLM-powered Recommendation — covering Generative Recommendation and Agentic Recommendation.**
 
 Explore with filters, search, citation counts, and a weekly email digest on the **[live site](https://weixinchen.com/llm4rec_papers)**.
@@ -13,7 +11,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 > Citation counts are from the Semantic Scholar API and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
 
-**Last updated:** 2026-10-22 15:06:39 Beijing Time · **Recent preprints:** 545 · **Publications:** 627
+**Last updated:** 2026-10-22 15:09:51 Beijing Time · **Recent preprints:** 545 · **Publications:** 627
 
 ---
 

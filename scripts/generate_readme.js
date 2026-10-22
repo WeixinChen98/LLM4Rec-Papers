@@ -200,15 +200,7 @@ async function main() {
         hour12: false
     }).format(new Date()).replace(' ', ' ') + ' Beijing Time';
 
-    // shields.io badges, "for-the-badge" style for a bolder, more polished look
-    const badgeLiveSite  = `[![Live Site](https://img.shields.io/badge/Live_Site-weixinchen.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](${LIVE_SITE_URL})`;
-    const badgePublished = `[![Publications](https://img.shields.io/badge/Publications-${totalPublished}-2EA043?style=for-the-badge)](${LIVE_SITE_URL})`;
-    const badgePreprints = `[![Recent Preprints](https://img.shields.io/badge/Recent_Preprints-${totalRecentPreprints}-FB8500?style=for-the-badge)](${LIVE_SITE_URL})`;
-    const badgeUpdated   = `[![Auto-updated](https://img.shields.io/badge/Auto--updated-Daily-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](../../actions)`;
-
     const header = `# LLM4Rec Papers
-
-${badgeLiveSite} ${badgePublished} ${badgePreprints} ${badgeUpdated}
 
 **A continuously auto-updated paper list on LLM-powered Recommendation — covering Generative Recommendation and Agentic Recommendation.**
 
