@@ -1,19 +1,19 @@
 # LLM4Rec Papers
 
-[![Live Site](https://img.shields.io/badge/Live%20Site-weixinchen.com-blue?style=flat-square&logo=google-chrome&logoColor=white)](https://weixinchen.com/llm4rec_papers) [![Publications](https://img.shields.io/badge/Publications-627-brightgreen?style=flat-square)](https://weixinchen.com/llm4rec_papers) [![Recent Preprints](https://img.shields.io/badge/Recent%20Preprints-545-orange?style=flat-square)](https://weixinchen.com/llm4rec_papers) [![Auto-updated](https://img.shields.io/badge/Auto--updated-daily-lightgrey?style=flat-square&logo=github-actions&logoColor=white)](../../actions)
+[![Live Site](https://img.shields.io/badge/Live_Site-weixinchen.com-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://weixinchen.com/llm4rec_papers) [![Publications](https://img.shields.io/badge/Publications-627-2EA043?style=for-the-badge)](https://weixinchen.com/llm4rec_papers) [![Recent Preprints](https://img.shields.io/badge/Recent_Preprints-545-FB8500?style=for-the-badge)](https://weixinchen.com/llm4rec_papers) [![Auto-updated](https://img.shields.io/badge/Auto--updated-Daily-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](../../actions)
 
 **A continuously auto-updated paper list on LLM-powered Recommendation — covering Generative Recommendation and Agentic Recommendation.**
 
-Live, interactive version with filters, search, citation counts, and weekly email digest: **[weixinchen.com/llm4rec_papers](https://weixinchen.com/llm4rec_papers)**
+Explore with filters, search, citation counts, and a weekly email digest on the **[live site](https://weixinchen.com/llm4rec_papers)**.
 
-This repo mirrors that feed and regenerates itself daily via GitHub Actions. It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM / WSDM / TORS / TKDE / ACL / EMNLP (via Semantic Scholar), de-duplicated against arXiv preprints.
+It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM / WSDM / TORS / TKDE / ACL / EMNLP (via Semantic Scholar), de-duplicated against arXiv preprints.
 
 - **Recent Preprints**: limited to the last 12 months to keep the list from growing without bound. Older preprints remain visible on the live site.
 - **Publications**: sorted by citation count, kept indefinitely.
 
 > Citation counts are from the Semantic Scholar API and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
 
-**Last updated:** 2026-10-22 14:59:28 Beijing Time · **Recent preprints:** 545 · **Publications:** 627
+**Last updated:** 2026-10-22 15:06:39 Beijing Time · **Recent preprints:** 545 · **Publications:** 627
 
 ---
 
