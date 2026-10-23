@@ -11,7 +11,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 > Citation counts are from the Semantic Scholar API and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
 
-**Last updated:** 2026-10-23 11:26:13 Beijing Time · **Recent preprints:** 545 · **Publications:** 628
+**Last updated:** 2026-10-23 14:10:55 Beijing Time · **Recent preprints:** 545 · **Publications:** 628
 
 ---
 
