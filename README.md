@@ -11,7 +11,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 > Citation counts are from the Semantic Scholar API and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
 
-**Last updated:** 2026-10-25 14:26:24 Beijing Time · **Recent preprints:** 560 · **Publications:** 214
+**Last updated:** 2026-10-26 14:35:45 Beijing Time · **Recent preprints:** 564 · **Publications:** 212
 
 ---
 
@@ -29,8 +29,11 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 ### Semantic ID & Generative Retrieval
 
-<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 134</strong></summary>
+<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 137</strong></summary>
 
+- **[Separating Thinking from Spelling for Efficient Generative Recommendation](http://arxiv.org/abs/2610.32980v1)** — Danil Gusak, Anna Volodkevich, Ivan Oseledets, et al. · 2026-10-23
+- **[Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation](http://arxiv.org/abs/2610.32943v1)** — Yixuan Xu, Hailin Liu, Linxiang Peng, et al. · 2026-10-23
+- **[From Item Scores to Semantic Tokens: Test-Time Collaborative Adaptation for Generative Recommendation](http://arxiv.org/abs/2610.32098v1)** — Xiongfeng Shan, Xing Tang, Hanchong Chen, et al. · 2026-10-23
 - **[SPAR: Stepwise Personalized Autoregressive Recommendation with Prefix-Balanced Semantic IDs](http://arxiv.org/abs/2610.27898v1)** — Chunrui Zhang, Gaoyun Lin, Chang Zhou, et al. · 2026-10-20
 - **[Neighborhood-Aware Unlearning for Generative Recommendation](http://arxiv.org/abs/2610.27232v1)** — Pierre Lubitzsch, Yubao Tang, Maarten de Rijke, et al. · 2026-10-19
 - **[Structure-Aligned History Learning with Subspace-Structured Semantic IDs for Generative Recommendation](http://arxiv.org/abs/2610.25093v1)** — Kaiwen Wei, Kejun He, Jie Zhang, et al. · 2026-10-18
@@ -168,7 +171,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 </details>
 
-<details open><summary><strong>📗 Publications — 36</strong></summary>
+<details open><summary><strong>📗 Publications — 35</strong></summary>
 
 - **[Personalized LLM Recommendation with Semantic IDs: Autoregressive Beam Search vs. Multi-Token Prediction](http://arxiv.org/abs/2610.15864v1)** — Sejoon Oh, Fernando Amat Gil, Evan Smothers, et al. · NeurIPS 2026
 - **[Rethinking Semantic ID Construction for Generative Recommendation: SimHash with Parallel Decoding and Semantic Alignment](http://arxiv.org/abs/2610.07402v1)** — Yuqing Liu, Huiyuan Chen, Yibo Wang, et al. · NeurIPS 2026
@@ -205,7 +208,6 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[Learning Decomposed Contextual Token Representations from Pretrained and Collaborative Signals for Generative Recommendation](http://arxiv.org/abs/2509.10468v2)** — Yifan Liu, Yaokun Liu, Zelin Li, et al. · SIGIR 2025
 - **[DAS: Dual-Aligned Semantic IDs Empowered Industrial Recommender System](http://arxiv.org/abs/2508.10584v2)** — Wencai Ye, Mingjie Sun, Shaoyun Shi, et al. · CIKM 2025
 - **[Semantic IDs for Joint Generative Search and Recommendation](http://arxiv.org/abs/2508.10478v1)** — Gustavo Penha, Edoardo D'Amico, Marco De Nadai, et al. · RecSys 2025
-- **[GRACE: Generative Recommendation via Journey-Aware Sparse Attention on Chain-of-Thought Tokenization](http://arxiv.org/abs/2507.14758v1)** — Luyi Ma, Wanjia Zhang, Kai Zhao, et al. · RecSys 2025
 
 </details>
 
@@ -552,8 +554,9 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 ### Simulation-oriented
 
-<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 33</strong></summary>
+<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 34</strong></summary>
 
+- **[TGR-EvoDAG: A DAG-based Multi-Agent Code Evolution Framework for Generative Recommendation on Tencent](http://arxiv.org/abs/2610.32326v1)** — Junlin He, Junzhang Zhu, Yudong Li, et al. · 2026-10-23
 - **[Vela: User Behavior as Supervision Sparks LLM Intelligence](http://arxiv.org/abs/2610.14709v1)** — Yang Xiao, Yusong Sun, Haoyi Wu, et al. · 2026-10-10
 - **[SimTrace: Grounded Multimodal User Trajectories Generation for Online User Modeling](http://arxiv.org/abs/2609.38397v1)** — Yunan Lu, Shuang Xie, Meghna Allamudi, et al. · 2026-09-29
 - **[PsyBer-Agent: A Psychology-Driven User Agent for Recommender Systems](http://arxiv.org/abs/2610.13989v1)** — Chong Zhang, Qijie Shen, Haichao Zhang, et al. · 2026-09-26
@@ -936,7 +939,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 </details>
 
-<details open><summary><strong>📗 Publications — 14</strong></summary>
+<details open><summary><strong>📗 Publications — 13</strong></summary>
 
 - **[Training-Free LLM-Based Recommendation with Post-LLM Item Refinement Using Collaborative Signals](http://arxiv.org/abs/2608.19665v1)** — Kyungho Kim, Sunwoo Kim, Geon Lee, et al. · CIKM 2026
 - **[URecJPQ: Memory-efficient Multimodal Recommendation Models through RecJPQ in Large-Scale Scenarios](http://arxiv.org/abs/2606.23291v2)** — Giuseppe Spillo, Zixuan Yi, Aleksandr Petrov, et al. · This manuscript has been published in the Springer's Journal of Intelligent Information Systems: https://link.springer.com/article/10.1007/s10844-026-01088-x
@@ -951,7 +954,6 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[USB-Rec: An Effective Framework for Improving Conversational Recommendation Capability of Large Language Model](http://arxiv.org/abs/2509.20381v1)** — Jianyu Wen, Jingyun Wang, Cilin Yan, et al. · RecSys 2025
 - **[Improving Conversational Recommendation with Contextual Adaptation of External Recommenders and LLM-based Reranking](http://arxiv.org/abs/2508.13889v2)** — Chuang Li, Weida Liang, Hengchang Hu, et al. · Accepted to ECIR 2026 (13 pages, 9 figures)
 - **[Uncertainty-Aware Semantic Decoding for LLM-Based Sequential Recommendation](http://arxiv.org/abs/2508.07210v2)** — Chenke Yin, Li Fan, Jia Wang, et al. · Accepted by APWeb 2025
-- **[Privacy Risks of LLM-Empowered Recommender Systems: An Inversion Attack Perspective](http://arxiv.org/abs/2508.03703v2)** — Yubo Wang, Min Tang, Nuo Shen, et al. · RecSys 2025
 
 </details>
 
