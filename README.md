@@ -11,7 +11,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 > Citation counts are from the Semantic Scholar API and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
 
-**Last updated:** 2026-11-08 15:37:48 Beijing Time · **Recent preprints:** 550 · **Publications:** 863
+**Last updated:** 2026-11-09 16:17:08 Beijing Time · **Recent preprints:** 556 · **Publications:** 865
 
 ---
 
@@ -29,8 +29,9 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 ### Semantic ID & Generative Retrieval
 
-<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 140</strong></summary>
+<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 142</strong></summary>
 
+- **[Generative Search and Recommendation at Shopify](http://arxiv.org/abs/2611.08804v1)** — Juhana Kangaspunta, Khalil Hajji, Darshan Fofadiya, et al. · 2026-11-05
 - **[BRIDGE: Bridging the Semantic Quantization Gap for Generative Recommendation](http://arxiv.org/abs/2611.07425v1)** — Yatong Xiao, Mingjie Sun, Peng Wang, et al. · 2026-11-05
 - **[Diverse-Teacher On-Policy Distillation for Generative Recommendation](http://arxiv.org/abs/2611.03272v1)** — Zhipeng Yi, Xinyu Lin, Minxuan Shan, et al. · 2026-11-02
 - **[Utility-Aware Generative Recommendation: Utility-Enriched Semantic Codes and Utility-Guided Decoding](http://arxiv.org/abs/2611.02981v1)** — Yang Hu, Duo Wang, Ning Li, et al. · 2026-11-02
@@ -46,6 +47,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[LESSRec: Level-Specific History Modeling for Semantic ID-Based Recommendation](http://arxiv.org/abs/2610.37286v1)** — Shangxin Yang, Zongwei Wang, Jing Long, et al. · 2026-10-27
 - **[The Vocabulary Is Already Here: Adapting Pretrained Interpretable Features for Generative Recommendation](http://arxiv.org/abs/2610.36763v1)** — Ziluowen Luo, Ruochen Liu, Jun Yin, et al. · 2026-10-27
 - **[MuSID-KD: Multigranularity Knowledge Distillation for Generative Recommendation with Semantic IDs](http://arxiv.org/abs/2610.35218v2)** — Fengshi Zhang, Xiyan Ding, Shuxiao Xie, et al. · 2026-10-26
+- **[RedMall: Generative Recommendation for Large-Scale E-commerce](http://arxiv.org/abs/2611.08519v1)** — Kunyang Zhou, Xin Jia, Yi Yang, et al. · 2026-10-26
 - **[Separating Thinking from Spelling for Efficient Generative Recommendation](http://arxiv.org/abs/2610.32980v2)** — Danil Gusak, Anna Volodkevich, Ivan Oseledets, et al. · 2026-10-23
 - **[Knowledge Distillation across Item and Code Spaces for Parallel Generative Recommendation](http://arxiv.org/abs/2610.32943v1)** — Yixuan Xu, Hailin Liu, Linxiang Peng, et al. · 2026-10-23
 - **[From Item Scores to Semantic Tokens: Test-Time Collaborative Adaptation for Generative Recommendation](http://arxiv.org/abs/2610.32098v1)** — Xiongfeng Shan, Xing Tang, Hanchong Chen, et al. · 2026-10-23
@@ -262,8 +264,9 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 ### LLM-as-Recommender
 
-<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 31</strong></summary>
+<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 32</strong></summary>
 
+- **[SteerGR: Steering Generative Recommendation via Sparse Autoencoders for Controllable Game Discovery](http://arxiv.org/abs/2611.08790v1)** — Sunkyung Lee, Xiaokai Wei, Da Long, et al. · 2026-11-05
 - **[When History Misleads: Asymmetric Margin Supervision for Instruction-Guided LLM Generative Recommendation](http://arxiv.org/abs/2610.02600v1)** — Ming Yin, Yuhan Yang, Chen Chen, et al. · 2026-10-01 · 📈 1 citation
 - **[LIGE-GR: A Smooth Leap from Ranking to Generative Recommendation in the LLM Era](http://arxiv.org/abs/2609.18148v2)** — Venkat Srinivas, Chenzhang He, Sam Woodmansee, et al. · 2026-09-16
 - **[Generate to Explore, Select to Exploit: Aligning LLM-based Headline Generation with Personalized Recommendation](http://arxiv.org/abs/2609.15094v1)** — Yi Chen, Rufeng Cheng, Qiang Xie, et al. · 2026-09-14
@@ -301,14 +304,14 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 <details open><summary><strong>📗 Publications — 78</strong></summary>
 
 - **[A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys)](http://arxiv.org/abs/2404.00579)** — Yashar Deldjoo, Zhan-Kui He, Julian J. McAuley, et al. · KDD 2024 · 📈 217 citations
-- **[Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation](http://arxiv.org/abs/2501.02226)** — Shijie Wang, Wenqi Fan, Yue Feng, et al. · ACL 2025 · 📈 147 citations
+- **[Knowledge Graph Retrieval-Augmented Generation for LLM-based Recommendation](http://arxiv.org/abs/2501.02226)** — Shijie Wang, Wenqi Fan, Yue Feng, et al. · ACL 2025 · 📈 148 citations
 - **[OneRec-Think: In-Text Reasoning for Generative Recommendation](http://arxiv.org/abs/2510.11639v2)** — Zhanyu Liu, Shiyao Wang, Xingmei Wang, et al. · ACL 2025 · 📈 95 citations
 - **[Content-Based Collaborative Generation for Recommender Systems](http://arxiv.org/abs/2403.18480)** — Yidan Wang, Zhao-Chun Ren, Weiwei Sun, et al. · CIKM 2024 · 📈 57 citations
 - **[PMG : Personalized Multimodal Generation with Large Language Models](http://arxiv.org/abs/2404.08677)** — Xiaoteng Shen, Rui Zhang, Xiaoyan Zhao, et al. · WWW 2024 · 📈 52 citations
 - **[Retrieval Augmented Generation with Collaborative Filtering for Personalized Text Generation](http://arxiv.org/abs/2504.05731)** — Teng Shi, Jun Xu, Xiao Zhang, et al. · SIGIR 2025 · 📈 41 citations
 - **[Towards Next-Generation Recommender Systems: A Benchmark for Personalized Recommendation Assistant with LLMs](http://arxiv.org/abs/2503.09382)** — Jiani Huang, Shijie Wang, Liang-Bo Ning, et al. · WSDM 2025 · 📈 35 citations
+- **[Shilling Black-box Review-based Recommender Systems through Fake Review Generation](http://arxiv.org/abs/2306.16526)** — Hung-Yun Chiang, Yi-Syuan Chen, Yun-Zhu Song, et al. · KDD 2023 · 📈 27 citations
 - **[ResumeFlow: An LLM-facilitated Pipeline for Personalized Resume Generation and Refinement](http://arxiv.org/abs/2402.06221)** — Saurabh Bhausaheb Zinjad, Amrita Bhattacharjee, Amey Bhilegaonkar, et al. · SIGIR 2024 · 📈 26 citations
-- **[Shilling Black-box Review-based Recommender Systems through Fake Review Generation](http://arxiv.org/abs/2306.16526)** — Hung-Yun Chiang, Yi-Syuan Chen, Yun-Zhu Song, et al. · KDD 2023 · 📈 26 citations
 - **[Scaling Transformers for Discriminative Recommendation via Generative Pretraining](http://arxiv.org/abs/2506.03699)** — Chun-Qi Wang, Bin Wu, Zheng Chen, et al. · KDD 2025 · 📈 22 citations
 - **[GRAM: Generative Recommendation via Semantic-aware Multi-granular Late Fusion](http://arxiv.org/abs/2506.01673)** — Sunkyung Lee, Minjin Choi, Eunseong Choi, et al. · ACL 2025 · 📈 21 citations
 - **[SynthTRIPs: A Knowledge-Grounded Framework for Benchmark Data Generation for Personalized Tourism Recommenders](http://arxiv.org/abs/2504.09277)** — Ashmi Banerjee, Adithi Satish, F. Aisyah, et al. · SIGIR 2025 · 📈 18 citations
@@ -455,7 +458,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[Watermarking Recommender Systems](http://arxiv.org/abs/2407.21034)** — Sixiao Zhang, Cheng Long, Wei Yuan, et al. · CIKM 2024 · 📈 3 citations
 - **[Learning from Unreachable Rewards: Hint-Conditioned Reinforcement Learning for Generative Recommendation](http://arxiv.org/abs/2608.11980v2)** — Kangning Zhang, Haotian Fang, Xukun Luo, et al. · CIKM 2026 · 📈 2 citations
 - **[MuonRec: Shifting the Optimizer Paradigm Beyond Adam in Scalable Generative Recommendation](http://arxiv.org/abs/2603.00416v2)** — Rong Shan, Aofan Yu, Bo Chen, et al. · The article has been accepted by Frontiers of Computer Science (FCS), with the DOI: {10.1007/s11704-026-61514-9} · 📈 2 citations
-- **[Taming Ultra-Long Behavior Sequence in Session-wise Generative Recommendation](https://www.semanticscholar.org/paper/4e3883e676cdcaa71e466770921d33075186aad4)** — Wu Li, Shiyao Wang, Kuo Cai, et al. · CIKM 2025 · 📈 2 citations
+- **[Taming Ultra-Long Behavior Sequence in Session-wise Generative Recommendation](https://www.semanticscholar.org/paper/4e3883e676cdcaa71e466770921d33075186aad4)** — Wu Li, Shi-Yao Wang, Kuo Cai, et al. · CIKM 2025 · 📈 2 citations
 - **[Next Interest Flow: A Generative Pre-training Paradigm for Recommender Systems by Modeling All-domain Movelines](http://arxiv.org/abs/2510.11317v2)** — Chen Gao, Zixin Zhao, Lv Shao, et al. · SIGIR 2025 · 📈 2 citations
 - **[Collaborative Memory Augmentation for Generative Recommendation](http://arxiv.org/abs/2608.01315v1)** — Enze Liu, Zhen Tian, Wayne Xin Zhao · KDD 2026 · 📈 1 citation
 - **[Action-Aware Generative Sequence Modeling for Short Video Recommendation](http://arxiv.org/abs/2604.25834v2)** — Wenhao Li, Zihan Lin, Zhengxiao Guo, et al. · We request the retraction of our paper due to discrepancies in the authorship information (https://dl.acm.org/doi/10.1145/3805712.3809728). To ensure accurate representation of contributions, we plan to revise the authorship list and resubmit. Thank you for your understanding · 📈 1 citation
@@ -474,8 +477,9 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 ### General
 
-<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 39</strong></summary>
+<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 40</strong></summary>
 
+- **[Rethinking Latent Reasoning for Generative Recommendation: Beyond Teacher-Generated CoT and Recurrent Hidden-State Feedback](http://arxiv.org/abs/2611.09006v1)** — Yiwen Chen, Fuwei Zhang, Zehao Chen, et al. · 2026-11-06
 - **[ZeroGR: Filtering-First Constrained Decoding for Generative Recommendation](http://arxiv.org/abs/2611.04715v1)** — Xiangrui Yang, Jiawei Yang, Liang Zeng, et al. · 2026-11-03
 - **[R2QRec: Learning Recommendation Queries from Retrieval Feedback](http://arxiv.org/abs/2610.39984v1)** — Weixin Chen, Shuchang Liu, Hailan Yang, et al. · 2026-10-29
 - **[KL-MOPD: Discrepancy-Aware Multi-Objective On-Policy Distillation for Generative Recommendation](http://arxiv.org/abs/2610.36973v1)** — Weiqin Yang, Yandong Wang, Yuan Gao, et al. · 2026-10-27
@@ -752,7 +756,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[ScienceDB AI: An LLM-Driven Agentic Recommender System for Large-Scale Scientific Data Sharing Services](http://arxiv.org/abs/2601.01118v1)** — Qing-Qing Long, Hao-Tian Chen, Chen-Yang Zhao, et al. · KDD 2026 · 📈 11 citations
 - **[DARLR: Dual-Agent Offline Reinforcement Learning for Recommender Systems with Dynamic Reward](http://arxiv.org/abs/2505.07257)** — Yi Zhang, Rui-Hong Qiu, Xu-Wei Xu, et al. · SIGIR 2025 · 📈 10 citations
 - **[LLM-based Conversational Recommendation Agents with Collaborative Verbalized Experience](https://www.semanticscholar.org/paper/cf35c3e9664bb563adae98a3f11c5c00556d00b4)** — Yaochen Zhu, Harald Steck, Dawen Liang, et al. · EMNLP 2025 · 📈 10 citations
-- **[Multi-Agent RL-based Information Selection Model for Sequential Recommendation](https://www.semanticscholar.org/paper/3cb6f01c40b286491b73bb659e34876146e72e25)** — Kai-Yuan Li, Pengfei Wang, Chenliang Li · SIGIR 2022 · 📈 9 citations
+- **[Multi-Agent RL-based Information Selection Model for Sequential Recommendation](https://www.semanticscholar.org/paper/3cb6f01c40b286491b73bb659e34876146e72e25)** — Kai-Yuan Li, Peng-Fei Wang, Chenliang Li · SIGIR 2022 · 📈 9 citations
 - **[Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges](http://arxiv.org/abs/2604.02211v1)** — Srivaths Ranganathan, Abhishek Dharmaratnakar, Anushree Sinha, et al. · WSDM 2026 · 📈 7 citations
 - **[LLMs as Orchestrators: Constraint-Compliant Multi-Agent Optimization for Recommendation Systems](http://arxiv.org/abs/2601.19121v3)** — Gui-Lin Zhang, Kai Zhao, Jeffrey Friedman, et al. · WWW 2026 · 📈 6 citations
 - **[On Causally Disentangled State Representation Learning for Reinforcement Learning based Recommender Systems](http://arxiv.org/abs/2407.13091)** — Siyu Wang, Xiaocong Chen, Li-Na Yao · CIKM 2024 · 📈 6 citations
@@ -777,7 +781,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[A Position Paper on Recommender Systems in the Era of Autonomous Agents](http://arxiv.org/abs/2607.24822v1)** — Aixin Sun · RecSys 2026 · 📈 1 citation
 - **[Optimizing Multi-Turn Interactive Recommendation Agents via Generative Intrinsic Motivation](https://www.semanticscholar.org/paper/5c5760afe0be87b377557b310030b2bac5444020)** — Xue-Yang Feng, Jiakai Tang, Xu Chen, et al. · WWW 2026 · 📈 1 citation
 - **[EARL: The 2nd Workshop on Evaluating and Applying Recommender Systems with Large Language Models](https://www.semanticscholar.org/paper/41d003efb01cce3bea91dfa908f9135596f7da11)** — Irene Li, Rui-Hai Dong, Guillaume Salha-Galvan, et al. · ACM Conference on Recommender Systems · 📈 1 citation
-- **[Communicative MARL-based Relevance Discerning Network for Repetition-Aware Recommendation](https://www.semanticscholar.org/paper/8d133d785d7ecebfdc57a46c1cd325f8b62ba633)** — Kai-Yuan Li, Pengfei Wang, Hai-Tao Wang, et al. · WWW 2023 · 📈 1 citation
+- **[Communicative MARL-based Relevance Discerning Network for Repetition-Aware Recommendation](https://www.semanticscholar.org/paper/8d133d785d7ecebfdc57a46c1cd325f8b62ba633)** — Kai-Yuan Li, Peng-Fei Wang, Hai-Tao Wang, et al. · WWW 2023 · 📈 1 citation
 - **[HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation](http://arxiv.org/abs/2611.05319v1)** — Zhen Tao, Xun Zhou, Xuhui Chen, et al. · NeurIPS 2026
 - **[A Contrastive Paradigm for Representation Learning in Interactive Recommendation](https://www.semanticscholar.org/paper/4638938a2d8734608ff49fc7d5e71d37f7798fb0)** — Jing-Yu Li, Zhi-Yong Feng, Shi-Zhan Chen, et al. · TKDE 2026
 - **[Personalization Matters: Long-Horizon Conversation Agent with User-Centric Information in Online Shopping Interactions](https://aclanthology.org/2026.findings-aacl.199/)** — Rena Wei Gao, Yue Dai, Hao Guan, et al. · Findings of AACL 2026
@@ -815,8 +819,9 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 ### Simulation-oriented
 
-<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 30</strong></summary>
+<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 31</strong></summary>
 
+- **[Memory-Aware Multi-Agent Architecture with LLM-based Orchestration for Conversational Recommendation](http://arxiv.org/abs/2611.08718v1)** — Emilly Pitman de Castro, Vanessa Silva, Gustavo Kanno, et al. · 2026-11-05
 - **[$τ$-Rec-Books: A Disclosure-Controlled Benchmark for Requirement Elicitation in Agentic Recommender Systems](http://arxiv.org/abs/2611.04459v1)** — Bharath Sivaram Narasimhan, Karthik R. Narasimhan · 2026-11-03
 - **[TGR-EvoDAG: A DAG-based Multi-Agent Code Evolution Framework for Generative Recommendation on Tencent](http://arxiv.org/abs/2610.32326v1)** — Junlin He, Junzhang Zhu, Yudong Li, et al. · 2026-10-23
 - **[Vela: User Behavior as Supervision Sparks LLM Intelligence](http://arxiv.org/abs/2610.14709v1)** — Yang Xiao, Yusong Sun, Haoyi Wu, et al. · 2026-10-10
@@ -853,7 +858,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 <details open><summary><strong>📗 Publications — 70</strong></summary>
 
 - **[AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](http://arxiv.org/abs/2310.09233)** — Jun-Jie Zhang, Yupeng Hou, Ruo-Bing Xie, et al. · WWW 2023 · 📈 257 citations
-- **[On Generative Agents in Recommendation](http://arxiv.org/abs/2310.10108)** — An Zhang, Leheng Sheng, Yu-Xin Chen, et al. · SIGIR 2023 · 📈 210 citations
+- **[On Generative Agents in Recommendation](http://arxiv.org/abs/2310.10108)** — An Zhang, Leheng Sheng, Yu-Xin Chen, et al. · SIGIR 2023 · 📈 211 citations
 - **[A Survey on LLM-powered Agents for Recommender Systems](http://arxiv.org/abs/2502.10050)** — Qiyao Peng, Hongtao Liu, Hua Huang, et al. · EMNLP 2025 · 📈 96 citations
 - **[CheatAgent: Attacking LLM-Empowered Recommender Systems via LLM Agent](http://arxiv.org/abs/2504.13192)** — Liang-Bo Ning, Shijie Wang, Wen-Qi Fan, et al. · KDD 2024 · 📈 75 citations
 - **[AutoDenoise: Automatic Data Instance Denoising for Recommendations](http://arxiv.org/abs/2303.06611)** — Weilin Lin, Xiang Zhao, Yejing Wang, et al. · WWW 2023 · 📈 69 citations
@@ -932,8 +937,9 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 ### Explainability & Reasoning
 
-<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 90</strong></summary>
+<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 91</strong></summary>
 
+- **[CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation](http://arxiv.org/abs/2611.08566v1)** — Kai Zhao, Guilin Zhang, Xiang Cheng, et al. · 2026-11-05
 - **[Multi-Teacher Reasoning Distillation for LLM Recommendation with Self-Exploration](http://arxiv.org/abs/2611.02457v1)** — Liangbo Ning, Siyuan Liang, Yi Zhou, et al. · 2026-11-02
 - **[OneLatent: Latent Reasoning for Efficient Foundation Recommendation Models](http://arxiv.org/abs/2610.30675v2)** — Hao Jiang, Peiru Du, Pengfei Yao, et al. · 2026-10-22
 - **[RES-MR: Risk-Aware Reasoning for Explainable and Safe Medication Recommendation](http://arxiv.org/abs/2610.14474v1)** — Cong Wang, Jin Li, Shoujin Wang, et al. · 2026-10-10 · 📈 3 citations
@@ -1036,12 +1042,12 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[Large Language Models are Competitive Near Cold-start Recommenders for Language- and Item-based Preferences](http://arxiv.org/abs/2307.14225)** — Scott Sanner, K. Balog, Filip Radlinski, et al. · ACM Conference on Recommender Systems · 📈 217 citations
 - **[XRec: Large Language Models for Explainable Recommendation](http://arxiv.org/abs/2406.02377)** — Qi-Yao Ma, Xubin Ren, Chao Huang · EMNLP 2024 · 📈 124 citations
 - **[CoRAL: Collaborative Retrieval-Augmented Large Language Models Improve Long-tail Recommendation](http://arxiv.org/abs/2403.06447)** — Junda Wu, Cheng Chang, Tong Yu, et al. · KDD 2024 · 📈 117 citations
-- **[Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models](http://arxiv.org/abs/2305.13112)** — Xiaolei Wang, Xin-Yu Tang, W. Zhao, et al. · EMNLP 2023 · 📈 113 citations
+- **[Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models](http://arxiv.org/abs/2305.13112)** — Xiaolei Wang, Xin-Yu Tang, W. Zhao, et al. · EMNLP 2023 · 📈 114 citations
 - **[Let Me Do It For You: Towards LLM Empowered Recommendation via Tool Learning](http://arxiv.org/abs/2405.15114)** — Yuyue Zhao, Jian-Can Wu, Xiang Wang, et al. · SIGIR 2024 · 📈 110 citations
 - **[Path Language Modeling over Knowledge Graphsfor Explainable Recommendation](https://www.semanticscholar.org/paper/75f4423820a6d2de93535fda5f80e17ae051dc47)** — Shijie Geng, Zuo-Hui Fu, Juntao Tan, et al. · WWW 2022 · 📈 104 citations
 - **[Can Small Language Models be Good Reasoners for Sequential Recommendation?](http://arxiv.org/abs/2403.04260)** — Yu-Ling Wang, Chang-Xin Tian, Bin-Bin Hu, et al. · WWW 2024 · 📈 100 citations
 - **[Large Language Models as Data Augmenters for Cold-Start Item Recommendation](http://arxiv.org/abs/2402.11724)** — Jianling Wang, Haokai Lu, James Caverlee, et al. · WWW 2024 · 📈 96 citations
-- **[G-Refer: Graph Retrieval-Augmented Large Language Model for Explainable Recommendation](http://arxiv.org/abs/2502.12586)** — Yu-Han Li, Xin-Ni Zhang, Linhao Luo, et al. · WWW 2025 · 📈 78 citations
+- **[G-Refer: Graph Retrieval-Augmented Large Language Model for Explainable Recommendation](http://arxiv.org/abs/2502.12586)** — Yu-Han Li, Xin-Ni Zhang, Linhao Luo, et al. · WWW 2025 · 📈 79 citations
 - **[Large Language Models Enhanced Collaborative Filtering](http://arxiv.org/abs/2403.17688)** — ZhongXiang Sun, Zihua Si, Xiaoxue Zang, et al. · CIKM 2024 · 📈 77 citations
 - **[Leveraging LLM Reasoning Enhances Personalized Recommender Systems](http://arxiv.org/abs/2408.00802)** — Alicia Tsai, Adam Kraft, Long Jin, et al. · ACL 2024 · 📈 74 citations
 - **[Review-driven Personalized Preference Reasoning with Large Language Models for Recommendation](http://arxiv.org/abs/2408.06276)** — Jieyong Kim, Hyunseo Kim, Hyunjin Cho, et al. · SIGIR 2024 · 📈 64 citations
@@ -1267,10 +1273,10 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 </details>
 
-<details open><summary><strong>📗 Publications — 149</strong></summary>
+<details open><summary><strong>📗 Publications — 150</strong></summary>
 
 - **[Representation Learning with Large Language Models for Recommendation](http://arxiv.org/abs/2310.15950)** — Xubin Ren, Wei Wei, Lianghao Xia, et al. · WWW 2023 · 📈 519 citations
-- **[Large Language Models as Zero-Shot Conversational Recommenders](http://arxiv.org/abs/2308.10053)** — Zhan-Kui He, Zhou-Hang Xie, Rahul Jha, et al. · CIKM 2023 · 📈 316 citations
+- **[Large Language Models as Zero-Shot Conversational Recommenders](http://arxiv.org/abs/2308.10053)** — Zhan-Kui He, Zhou-Hang Xie, Rahul Jha, et al. · CIKM 2023 · 📈 317 citations
 - **[Collaborative Large Language Model for Recommender Systems](http://arxiv.org/abs/2311.01343)** — Yao-Chen Zhu, Liang Wu, Qi Guo, et al. · WWW 2023 · 📈 195 citations
 - **[LLM4Rerank: LLM-based Auto-Reranking Framework for Recommendations](http://arxiv.org/abs/2406.12433)** — Jingtong Gao, Bo Chen, Xiang-Yu Zhao, et al. · WWW 2024 · 📈 87 citations
 - **[OpenP5: An Open-Source Platform for Developing, Training, and Evaluating LLM-based Recommender Systems](http://arxiv.org/abs/2306.11134)** — Shu-Yuan Xu, Wen-Yue Hua, Yong-Feng Zhang · SIGIR 2023 · 📈 66 citations
@@ -1289,7 +1295,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[Large Language Models for Recommendation: Past, Present, and Future](https://www.semanticscholar.org/paper/06df406805b59dcafb59214b99a77f9d2dad8b76)** — Keqin Bao, Ji-Zhi Zhang, Xin-Yu Lin, et al. · SIGIR 2024 · 📈 31 citations
 - **[Process-Supervised LLM Recommenders via Flow-guided Tuning](http://arxiv.org/abs/2503.07377)** — Chong-Ming Gao, Mengyao Gao, Chen-Xiao Fan, et al. · SIGIR 2025 · 📈 30 citations
 - **[PUB: An LLM-Enhanced Personality-Driven User Behaviour Simulator for Recommender System Evaluation](http://arxiv.org/abs/2506.04551)** — Cheng-Long Ma, Zi-Qi Xu, Yongli Ren, et al. · SIGIR 2025 · 📈 29 citations
-- **[LoRec: Combating Poisons with Large Language Model for Robust Sequential Recommendation](https://www.semanticscholar.org/paper/0f511b78ce3febc3d6f47acd441aa12288f4c62b)** — Kaike Zhang, Qi Cao, Yunfan Wu, et al. · SIGIR 2024 · 📈 28 citations
+- **[LoRec: Combating Poisons with Large Language Model for Robust Sequential Recommendation](https://www.semanticscholar.org/paper/0f511b78ce3febc3d6f47acd441aa12288f4c62b)** — Kaike Zhang, Qi Cao, Yunfan Wu, et al. · SIGIR 2024 · 📈 29 citations
 - **[No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy](http://arxiv.org/abs/2509.04404v2)** — Kyra Wilson, Mattea Sim, Anna-Maria Gueorguieva, et al. · AAAI 2025 · 📈 25 citations
 - **[Fairness Matters: A look at LLM-generated group recommendations](https://www.semanticscholar.org/paper/c345449e88e4acd26dc9997cb05feb66b3bf6321)** — Antonela Tommasel · ACM Conference on Recommender Systems · 📈 25 citations
 - **[EasyRec: Simple yet Effective Language Models for Recommendation](http://arxiv.org/abs/2408.08821)** — Xubin Ren, Chao Huang · EMNLP 2024 · 📈 24 citations
@@ -1338,6 +1344,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[Improving Visual Recommendation on E-commerce Platforms Using Vision-Language Models](http://arxiv.org/abs/2510.13359v1)** — Yuki Yada, Sho Akiyama, Ryo Watanabe, et al. · ACM Conference on Recommender Systems · 📈 3 citations
 - **[Emotion Vector-Based Fine-Tuning of Large Language Models for Age-Aware Teenage Book Recommendations](https://www.semanticscholar.org/paper/74d39faa8267de20d4083bf9b33015fe1fdc163d)** — Kate Hill, Yiu-Kai Ng, Joey B. Sherrill · ACM Conference on Recommender Systems · 📈 3 citations
 - **[M-LLM3REC: A Motivation-Aware User-Item Interaction Framework for Enhancing Recommendation Accuracy with LLMs](http://arxiv.org/abs/2508.15262v1)** — Li-Ning Chen, Qing-Wen Zeng, Hua-Ming Chen · CIKM 2025 · 📈 3 citations
+- **[Token-Efficient Item Representation via Images for LLM Recommender Systems](http://arxiv.org/abs/2503.06238)** — Kibum Kim, Sein Kim, Hongseok Kang, et al. · ICLR 2025 · 📈 3 citations
 - **[Beyond Static Best-of-N: Bayesian List-wise Alignment for LLM-based Recommendation](http://arxiv.org/abs/2605.04559v1)** — Ruijun Chen, Chong-Ming Gao, Jiawei Chen, et al. · SIGIR 2026 · 📈 2 citations
 - **[RAIE:Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation](http://arxiv.org/abs/2603.00638v2)** — Jinlei Zeng, Yu-Peng Qi, Hui Li, et al. · WWW 2026 · 📈 2 citations
 - **[Whose Name Comes Up? II: Benchmarking and Intervention-Based Auditing of LLM-Based Scholar Recommendation](http://arxiv.org/abs/2602.08873v2)** — Lisette Espín-Noboa, Gonzalo Gabriel Méndez · KDD 2026 · 📈 2 citations
@@ -1539,9 +1546,9 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 </details>
 
-<details open><summary><strong>📗 Publications — 50</strong></summary>
+<details open><summary><strong>📗 Publications — 51</strong></summary>
 
-- **[Data-efficient Fine-tuning for LLM-based Recommendation](http://arxiv.org/abs/2401.17197)** — Xin-Yu Lin, Wen-Jie Wang, Yong-Qi Li, et al. · SIGIR 2024 · 📈 299 citations
+- **[Data-efficient Fine-tuning for LLM-based Recommendation](http://arxiv.org/abs/2401.17197)** — Xin-Yu Lin, Wen-Jie Wang, Yong-Qi Li, et al. · SIGIR 2024 · 📈 300 citations
 - **[CoLLM: Integrating Collaborative Embeddings Into Large Language Models for Recommendation](http://arxiv.org/abs/2310.19488)** — Yang Zhang, Fu-Li Feng, Ji-Zhi Zhang, et al. · TKDE 2023 · 📈 266 citations
 - **[NoteLLM: A Retrievable Large Language Model for Note Recommendation](http://arxiv.org/abs/2403.01744)** — Chao Zhang, Shi-Wei Wu, Haoxin Zhang, et al. · WWW 2024 · 📈 99 citations
 - **[Bridging Items and Language: A Transition Paradigm for Large Language Model-Based Recommendation](http://arxiv.org/abs/2310.06491)** — Xin-Yu Lin, Wen-Jie Wang, Yong-Qi Li, et al. · KDD 2023 · 📈 98 citations
@@ -1552,6 +1559,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[MSL: Not All Tokens Are What You Need for Tuning LLM as a Recommender](http://arxiv.org/abs/2504.04178)** — Bo-Hao Wang, Feng Liu, Jia-Wei Chen, et al. · SIGIR 2025 · 📈 28 citations
 - **[LLMInit: A Free Lunch from Large Language Models for Selective Initialization of Recommendation](http://arxiv.org/abs/2503.01814)** — Weizhi Zhang, Liangwei Yang, Wooseong Yang, et al. · EMNLP 2025 · 📈 26 citations
 - **[Enhancing Content-based Recommendation via Large Language Model](http://arxiv.org/abs/2404.00236)** — Wen-Tao Xu, Qian-Qian Xie, Shuo Yang, et al. · CIKM 2024 · 📈 22 citations
+- **[Rank-GRPO: Training LLM-based Conversational Recommender Systems with Reinforcement Learning](http://arxiv.org/abs/2510.20150v5)** — Yao-Chen Zhu, Harald Steck, Dawen Liang, et al. · ICLR 2025 · 📈 18 citations
 - **[Uncovering Cross-Domain Recommendation Ability of Large Language Models](http://arxiv.org/abs/2503.07761)** — Xin-Yi Liu, Ruijie Wang, Dachun Sun, et al. · WWW 2025 · 📈 16 citations
 - **[Modeling User Viewing Flow using Large Language Models for Article Recommendation](http://arxiv.org/abs/2311.07619)** — Zhenghao Liu, Zulong Chen, Moufeng Zhang, et al. · WWW 2023 · 📈 16 citations
 - **[Large Language Model driven Policy Exploration for Recommender Systems](http://arxiv.org/abs/2501.13816)** — Jie Wang, Alexandros Karatzoglou, Ioannis Arapakis, et al. · WSDM 2025 · 📈 14 citations
