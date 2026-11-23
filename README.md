@@ -11,7 +11,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 > Citation counts are from the Semantic Scholar API and tend to run lower than Google Scholar, which indexes a wider set of citing sources. Treat them as a relative ranking signal, not an exact count.
 
-**Last updated:** 2026-11-22 16:22:15 Beijing Time · **Recent preprints:** 544 · **Publications:** 894
+**Last updated:** 2026-11-23 17:21:19 Beijing Time · **Recent preprints:** 542 · **Publications:** 894
 
 ---
 
@@ -683,7 +683,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[RecEvolve: A Knowledge-Driven Autonomous Agent System for Recommender Systems](http://arxiv.org/abs/2609.01622v1)** — Weidi Pan, He Ma, Shuhao Ye, et al. · RecSys 2026 · 📈 1 citation
 - **[RouteRec: Strict Evaluation of Recommender-Agent Selection and Aggregation](http://arxiv.org/abs/2607.09908v1)** — Kaiji Zhou, Vladimir Kalmykov, Yue Feng · SIGIR 2026 · 📈 1 citation
 - **[Breaking the Filter Bubble: A Semantic Pareto-DQN Framework for Multi-Objective Recommendation](http://arxiv.org/abs/2606.24042v1)** — Cláudio Lúcio Do Val Lopes, Lucca Machado da Silva, André de Oliveira Brandão · IEEE International Conference on Responsible Artificial Intelligence (IRAI) - 2026 · 📈 1 citation
-- **[MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems](http://arxiv.org/abs/2611.23910v1)** — Matthew Li, Albert Liang, Dilip Raj · NeurIPS 2026
+- **[MLE Agents: Autonomous ML Engineering in Large-scale Recommendation Systems](http://arxiv.org/abs/2611.23910v1)** — Matthew Li, Albert Jiongqian Liang, Dilip Raj · NeurIPS 2026
 - **[GuardAgent: A Memory-Augmented Agentic Framework for Adaptive Detection of Adversarial Promotions in LLM-Based Recommendation](http://arxiv.org/abs/2611.22274v1)** — Shiyi Yang, Xinshu Li, Chen Wang, et al. · WSDM 2026
 - **[FAIRGate: Agentic Runtime Policy Selection and Verified Repair for Fairer Recommendation Delivery](http://arxiv.org/abs/2610.30359v1)** — Navkar Jain, Enock Ayiku, Kenneth Fletcher · Accepted at the 1st IEEE International Conference on Responsible Artificial Intelligence (IRAI 2026), Melbourne, Australia. 6 pages, 2 figures, 5 tables
 - **[Which Model for Which Role? Cost-Efficient Pareto Recommendation for LLM Agentic Workflows](http://arxiv.org/abs/2610.26676v2)** — Qian Xie, Wenyue Hua, Yueli He, et al. · NeurIPS 2026
@@ -952,7 +952,7 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 
 ### Explainability & Reasoning
 
-<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 83</strong></summary>
+<details open><summary><strong>🆕 Recent Preprints (last 12 months) — 81</strong></summary>
 
 - **[From User Behaviors to Satisfaction Judgments: Reasoning about User Satisfaction with AI Overviews](http://arxiv.org/abs/2611.10715v1)** — Xingzhu Wang, Yitong Xu, Yue Li, et al. · 2026-11-07
 - **[CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation](http://arxiv.org/abs/2611.08566v1)** — Kai Zhao, Guilin Zhang, Xiang Cheng, et al. · 2026-11-05
@@ -1035,8 +1035,6 @@ It covers arXiv plus NeurIPS / ICLR / ICML / WWW / KDD / SIGIR / RecSys / CIKM /
 - **[Structured Spectral Reasoning for Frequency-Adaptive Multimodal Recommendation](http://arxiv.org/abs/2512.01372v3)** — Wei Yang, Rui Zhong, Yiqun Chen, et al. · 2025-12-01 · 📈 10 citations
 - **[Selecting User Histories to Generate LLM Users for Cold-Start Item Recommendation](http://arxiv.org/abs/2511.21989v1)** — Nachiket Subbaraman, Jaskinder Sarai, Aniruddh Nath, et al. · 2025-11-27
 - **[LLM-EDT: Large Language Model Enhanced Cross-domain Sequential Recommendation with Dual-phase Training](http://arxiv.org/abs/2511.19931v2)** — Ziwei Liu, Qidong Liu, Wanyu Wang, et al. · 2025-11-25 · 📈 5 citations
-- **[UFO: Unfair-to-Fair Evolving Mitigates Unfairness in LLM-based Recommender Systems via Self-Play Fine-tuning](http://arxiv.org/abs/2511.18342v1)** — Jiaming Zhang, Yuyuan Li, Xiaohua Feng, et al. · 2025-11-23
-- **[Large Language Model Enhanced Graph Invariant Contrastive Learning for Out-of-Distribution Recommendation](http://arxiv.org/abs/2511.18282v1)** — Jiahao Liang, Haoran Yang, Xiangyu Zhao, et al. · 2025-11-23
 
 </details>
 
